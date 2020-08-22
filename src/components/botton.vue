@@ -25,7 +25,7 @@
           <div class="col">
             <button class="btn btn-light" @click="reset()">NewGame</button>
           </div>
-          <br/>
+          <br />
           <img
             src="https://www.freepngimg.com/thumb/animation/84267-versus-of-wallpaper-diagram-computer-witcher-geralt.png"
             width="100%"

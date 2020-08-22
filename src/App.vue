@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <br/>
+    <br />
     <img class="rounded-circle" src="./assets/2.jpg" width="20%" />
     <HelloWorld msg="Nonog_Narlux" />
-    <br/>
+    <br />
     <h1 class="text-light">---------------- Narlux Battle Fighters ----------------</h1>
     <div>
       <botton />
