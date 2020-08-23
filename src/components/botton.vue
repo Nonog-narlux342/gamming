@@ -4,9 +4,9 @@
       <div class="col-sm">
         <p style="font-size: 150%">{{aplayer.name}}</p>
         <p>
-          <img v-bind:style="{width: aplayer.hp + 'px'}" :src="hp1" alt height="15px" />
+          <img v-bind:style="{width: aplayer.hp + 'px'}" :src="hp1" alt height="20px" />
         </p>
-        <p style="font-size: 150%">{{aplayer.hp}}</p>
+        <p style="font-size: 150%">{{thp}}{{aplayer.hp}}</p>
         <p>
           <img style="width:80%" :src="aplayer.image" />
         </p>
@@ -47,7 +47,7 @@
         <p>
           <img v-bind:style="{width: amonster.hp + 'px'}" :src="hp2" alt height="15px" />
         </p>
-        <p style="font-size: 150%">{{amonster.hp}}</p>
+        <p style="font-size: 150%">{{thp}}{{amonster.hp}}</p>
         <p>
           <img style="width:80%" :src="amonster.image" />
         </p>
@@ -76,6 +76,7 @@
 export default {
   data: function () {
     return {
+      thp: "HP:",
       end: false,
       hp2:
         "https://i.ppy.sh/bca61e3c2183a86ddb4c1d75914fab845e2b128f/687474703a2f2f692e696d6775722e636f6d2f6953766c5662432e706e67",

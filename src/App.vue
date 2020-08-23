@@ -25,7 +25,7 @@ export default {
 <style>
 #app {
   background-image: url(https://cdn.pixabay.com/photo/2015/11/11/03/47/evening-1038148_1280.jpg);
-  height: 100%x;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
