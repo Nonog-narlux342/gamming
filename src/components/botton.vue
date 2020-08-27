@@ -14,7 +14,7 @@
       <div class="col-sm">
         <div class="row">
           <div class="col">
-            <button class="btn btn-primary" @click="start()">Start</button>
+            <button v-bind:disabled="end" class="btn btn-primary" @click="start()">Start</button>
           </div>
           <div class="col">
             <button v-bind:disabled="end" class="btn btn-danger" @click="attack()">Attack</button>
